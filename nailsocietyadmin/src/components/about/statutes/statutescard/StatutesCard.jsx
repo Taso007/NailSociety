@@ -7,7 +7,7 @@ function StatutesCard({ id, title_eng, title_geo, file_eng, file_geo, handleDele
       <div className='statutescard-content'>
         <div>
           <div className='text-wrap text-break'>
-            {title_eng}
+            {title_eng} 
           </div>
           <div className='text-wrap text-break'>
             {title_geo}
