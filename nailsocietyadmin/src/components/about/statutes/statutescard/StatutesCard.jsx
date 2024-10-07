@@ -1,5 +1,5 @@
 import React from 'react';
-import './statutesCard.css';
+import './statutescard.css';
 
 function StatutesCard({ id, title_eng, title_geo, file_eng, file_geo, handleDelete }) {
   return (
