@@ -1,0 +1,53 @@
+.leaflet-category {
+  margin-bottom: 20px;
+}
+
+.leaflet-category h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.leaflet-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaflet-category ul li {
+  margin-bottom: 5px;
+}
+
+.leaflet-category ul li a {
+  text-decoration: none;
+  color: #3C4D7A;
+}
+
+.leaflet {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.leaflet-content {
+  margin: 9px;
+}
+.leaflet:hover {
+  background-color: #e0e0e0;
+}
+
+.leaflet-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.leaflet-link {
+  width: 100%;
+  height: 100%;
+}
+

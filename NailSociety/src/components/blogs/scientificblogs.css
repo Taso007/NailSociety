@@ -1,0 +1,70 @@
+.search__container {
+  padding-top: 64px;
+  min-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-title {
+  margin-left: 11px;
+}
+
+.blogcards-container {
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.199) 0px 5px 15px;
+  margin-top: 3%;
+  background-color: rgba(163, 162, 162, 0.342);
+  max-width: 1060px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.scientificBlogs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px;
+}
+
+
+@media screen and (max-width: 950px) {
+  .search__container {
+    min-width: 70%;
+  }
+} 
+
+.load-more-btn {
+  border: none;
+  background-color: #3C4D7A;
+  color:white;
+  width: 200px;
+  border-radius: 20px;
+  height: 40px;
+  transition: background-color 0.3s;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+
+.load-more-btn:hover{
+  background-color: #262f4b;
+}
+
+.no-blogs-message {
+  font-size: 23px;
+  color: #1f1f1f;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.blogs-text-container {
+  max-width: 1295px;
+}
