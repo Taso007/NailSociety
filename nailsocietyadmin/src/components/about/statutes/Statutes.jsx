@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../../../Navbar';
 import './statutes.css';
-import StatutesCard from './statutescard/statutesCard';
+import StatutesCard from './statutescard/StatutesCard';
 import { collection, addDoc } from 'firebase/firestore';
 import { db, storage } from '../../../firebaseConfig';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
