@@ -17,14 +17,14 @@ function Footer() {
       </div>
 
       <div className="footer-center">
-        <div>
+        <div> 
           <i className="fa fa-map-marker"></i>
           <p className='old-standard-tt-regular'>{t('footer_street')}</p>
         </div>
 
         <div className='phone_content mt-2'>
           <p className='old-standard-tt-regular'>+(995) 599 25 66 15</p>
-          <p className='old-standard-tt-regular'>+(995) 599 25 66 16</p>
+          <p className='old-standard-tt-regular'>+(995) 597 50 50 59</p>
         </div>
       </div>
 
