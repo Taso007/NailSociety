@@ -5,7 +5,7 @@ import img1 from '../../../images/report.webp';
 import './annualreports.css';
 import useChange from '../../reusable/useChange';
 import { useTranslation } from 'react-i18next';
-import PdfDownloadReports from './pdfdownload/PdfDownloadReports';
+import PdfDownloadReports from './pdfdownload/PdfDownloadReports'; 
 
 function AnnualReports({ language }) { 
   const {t} = useTranslation();
