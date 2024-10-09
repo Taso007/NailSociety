@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logo from '../../images/image.webp';
+import logo from '../../images/logo.jfif.webp';
 import { useTranslation } from 'react-i18next';
 
 function Footer() {
