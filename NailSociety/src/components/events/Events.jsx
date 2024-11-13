@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 // Images
 import img1 from '../../images/events.webp';
-
+ 
 function Events({ language }) {
   const {t} = useTranslation();
   const [events, setEvents] = useState([]);
@@ -91,7 +91,7 @@ function Events({ language }) {
                     <EventCard
                       key={event.id}
                       id={event.id}
-                      url={event.file}
+                      url={event.file[0]}
                       title={event.title}
                       location={event.location}
                       date={event.date}
@@ -129,7 +129,7 @@ function Events({ language }) {
                       <EventCard
                         key={event.id}
                         id={event.id}
-                        url={event.file}
+                        url={event.file[0]}
                         title={event.title}
                         location={event.location}
                         date={event.date}

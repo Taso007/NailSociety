@@ -7,7 +7,7 @@ function MainCard(props) {
       <img src={props.url} className="card-img img1" alt="..." />
       <div className="grey-overlay"></div>
       <div className="card-img-overlay">
-        <h5 className="card-title card-title-overwrite old-standard-tt-regular">{props.title}</h5>
+        <h5 className="card-title card-title-overwrite old-standard-tt-regular maicard-title">{props.title}</h5>
       </div>
     </div>
   )

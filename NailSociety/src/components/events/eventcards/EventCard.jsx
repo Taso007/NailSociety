@@ -15,11 +15,11 @@ function EventCard({ id, url, title, location, date }) {
       <div className='EventImg-container' onClick={handleClick}>
         <img src={url} className='EventImg mb-2' alt={title} />
       </div>
-      <p className='mb-0'><strong>{title}</strong></p>
+      <p className='mb-0 text-truncate text-wrap text-break'><strong>{title}</strong></p>
       <p className='mb-0'>{location}</p>
       <p className='mb-0 no-wrap'>{date}</p>
     </div>
   );
 }
-
+ 
 export default EventCard;
