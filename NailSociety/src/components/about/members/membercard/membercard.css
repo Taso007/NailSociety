@@ -105,7 +105,8 @@ body {
   padding: 0 2em 2em;
   margin: 0;
   color: #D7BDCA;
-  font-family: "MockFlowFont";   
+  font-family: "MockFlowFont";
+  font-size: x-small;   
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
