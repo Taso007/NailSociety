@@ -6,6 +6,7 @@ import './eventpage.css';
 import Footer from '../../footer/Footer';
 import MainCard from '../../maincard/MainCard';
 import Carousel from './carousel/Carousel';
+import { renderDescription } from '../../reusable/utils';
  
 function EventPage({ language }) {
   const { id } = useParams();
@@ -44,7 +45,7 @@ function EventPage({ language }) {
           <p className='event-location text-break text-wrap'>{languageSpecificEvent.location}</p>
           <p className='event-date'>{event.date}</p>
           <div className='event-description text-break text-wrap'>
-            <p className='text-break text-wrap'>{languageSpecificEvent.description}</p>
+            <p className='text-break text-wrap'>{renderDescription(languageSpecificEvent.description)}</p>
           </div>
         </div>
         <div className='event-header'>
