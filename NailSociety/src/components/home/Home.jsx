@@ -23,10 +23,10 @@ function Home() {
           <h1 className='home-title old-standard-tt-bold'>{t('home_title')}</h1>
           <div className='text-break text-wrap h4'>
             <p className='old-standard-tt-regular'>
-              {t('home_1_paragraph')}
+              {t('home_1_paragraph')} 
             </p>
             <p className='old-standard-tt-regular'>
-              {t('home_2_paragraph')}
+              {/* {t('home_2_paragraph')} */}
             </p> 
           </div>
         </div>
