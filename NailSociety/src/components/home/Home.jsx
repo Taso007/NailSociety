@@ -26,7 +26,7 @@ function Home() {
               {t('home_1_paragraph')} 
             </p>
             <p className='old-standard-tt-regular'>
-              {/* {t('home_2_paragraph')} */}
+              {t('home_2_paragraph')}
             </p> 
           </div>
         </div>
