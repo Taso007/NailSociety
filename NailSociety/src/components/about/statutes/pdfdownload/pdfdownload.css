@@ -52,3 +52,24 @@
   justify-content: center;
   align-items: center;
 }
+
+.pdf-statutes-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pdf-download {
+  margin: 0 auto;           
+}
+
+
+.pdf-statutes-link:link,
+.pdf-statutes-link:visited,
+.pdf-statutes-link:hover,
+.pdf-statutes-link:active,
+.pdf-statutes-link:focus {
+  text-decoration: none;    
+  color: inherit;
+}

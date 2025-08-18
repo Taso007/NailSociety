@@ -17,7 +17,7 @@ function Patients({ language }) {
       ...leaflet,
       category: language === 'geo' ? leaflet.category_geo : leaflet.category_eng,
       title: language === 'geo' ? leaflet.title_geo : leaflet.title_eng,
-      file: language === 'geo' ? leaflet.file_geo : leaflet.file_eng
+      file: language === 'geo' ? leaflet.file_geo : leaflet.file_eng 
     }));
     setDisplayedLeaflets(updatedLeaflets);
   }, [language, leaflets]);

@@ -39,7 +39,7 @@ const resources = {
       blogs_search: 'Search for topics or terms:',
       search: 'Search',
       read_more: 'Read more',
-      download: 'Download PDF',
+      view: 'View PDF',
       footer_street: '22a Tashkenti Street, Tbilisi',
       footer_about_title: 'About GNRS',
       footer_about: 'The Georgian Nail Research Society is a non-profit organization, dedicated to advancing the study and understanding of nail health, disorders, and care.'
@@ -80,7 +80,7 @@ const resources = {
       blogs_search: 'მოძებნეთ თემები ან ტერმინები:',
       search: 'ძიება',
       read_more: 'დაწვრილებით',
-      download: 'გადმოწერე PDF',
+      view: 'გახსენით PDF',
       footer_street: 'ტაშკენტის 22ა, თბილისი',
       footer_about_title: 'GNRS-ის შესახებ',
       footer_about: 'GNRS არის არაკომერციული ორგანიზაცია, რომელიც ეძღვნება ფრჩხილების ჯანმრთელობის, დარღვევებისა და მოვლის შესწავლასა და განვითარებას.'

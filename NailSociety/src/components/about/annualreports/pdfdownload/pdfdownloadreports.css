@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color: #f4f4f4;
+  background-color: #f4f4f4; 
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -41,3 +41,20 @@
   max-width: 1200px;
   width: 100%;
 } 
+
+.pdf-report-link {
+  width: 100%;
+  height: 100%;
+  display: block;           
+  text-decoration: none;    
+  color: inherit;           
+}
+
+.pdf-report-link:link,
+.pdf-report-link:visited,
+.pdf-report-link:hover,
+.pdf-report-link:active,
+.pdf-report-link:focus {
+  text-decoration: none;    
+  color: inherit;
+}
