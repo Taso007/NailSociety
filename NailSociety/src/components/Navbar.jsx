@@ -22,7 +22,7 @@ function Navbar({ changeLanguage, language }) {
                   {t('about')}
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item old-standard-tt-regular" href="/">{t('nav_academy')}</a></li>
+                  <li><a className="dropdown-item old-standard-tt-regular" href="/">{t('nav_society')}</a></li>
                   <li><hr className="dropdown-divider" /></li>
                   <li><a className="dropdown-item old-standard-tt-regular" href="/members">{t('nav_members')}</a></li>
                   <li><hr className="dropdown-divider" /></li>
