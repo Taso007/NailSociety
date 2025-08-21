@@ -3,6 +3,7 @@
   padding: 4rem 5%;
   max-width: 1457px;
   width: 100%;
+  min-width: 400px;
 }
 
 .eventbox-container  {
