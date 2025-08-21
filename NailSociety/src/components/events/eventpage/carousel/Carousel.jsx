@@ -15,7 +15,7 @@ function Carousel({ imageArray }) {
             aria-current={index === 0 ? 'true' : 'false'}
             aria-label={`Slide ${index + 1}`}
           ></button>
-        ))}
+        ))} 
       </div>
       <div className="carousel-inner">
         {imageArray.map((image, index) => (
