@@ -9,9 +9,9 @@ function BlogCard({ id, url, title, description, date }) {
   return (
     <div className="card BlogCard" style={{ width: '19rem', height: '35rem' }}>
       <img src={url} className="card-img-top BlogImg" alt={title} />
-      <div className="card-body">
-        <h4 className="card-title"><strong>{title}</strong></h4>
-        <p className="card-text text-multiline-truncate"> {description}</p>
+      <div className="card-body" >
+        <h4 className="card-title text-multiline-truncate"><strong>{title}</strong></h4>
+        <p className="card-text text-multiline-truncate" > {description}</p>
       </div>
       <div className="mb-3">
         <Link to={`/blog/${id}`} className="card-link blogcard-link">{t('read_more')}</Link>
@@ -21,6 +21,6 @@ function BlogCard({ id, url, title, description, date }) {
       </ul>
     </div>
   );
-}
+} 
 
 export default BlogCard;

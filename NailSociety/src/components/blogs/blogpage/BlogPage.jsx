@@ -6,8 +6,10 @@ import './blogpage.css';
 import Footer from '../../footer/Footer';
 import MainCard from '../../maincard/MainCard';
 import { renderDescription } from '../../reusable/utils';
+import { useTranslation } from 'react-i18next';
 
 function BlogPage({ language }) {
+  const {t} = useTranslation();
   const { id } = useParams();
   const [blog, setBlog] = useState(null);
 
@@ -29,6 +31,7 @@ function BlogPage({ language }) {
 
   const title = language === 'geo' ? blog.title_geo : blog.title_eng;
   const description = language === 'geo' ? blog.description_geo : blog.description_eng;
+  const file = language === 'geo' ? blog.file_geo : blog.file_eng;
 
   return (
     <>
@@ -36,6 +39,9 @@ function BlogPage({ language }) {
       <div className='blog-page'>
         <div className='blog-info'>
           <h1>{title}</h1>
+          <div>
+            <a href={file}>{t('view')}</a>
+          </div>
           <div className='blog-description text-break text-wrap'>
             <p className='text-break text-wrap'>{renderDescription(description)}</p>
           </div>
