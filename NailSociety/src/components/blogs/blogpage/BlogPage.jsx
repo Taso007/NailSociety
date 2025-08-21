@@ -40,7 +40,7 @@ function BlogPage({ language }) {
         <div className='blog-info'>
           <h1>{title}</h1>
           <div>
-            <a href={file}>{t('view')}</a>
+            <a href={file} target="_blank" rel="noopener noreferrer">{t('view')}</a>
           </div>
           <div className='blog-description text-break text-wrap'>
             <p className='text-break text-wrap'>{renderDescription(description)}</p>
