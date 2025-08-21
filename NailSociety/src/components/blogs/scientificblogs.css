@@ -20,6 +20,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-width: 350px;
 }
 
 .scientificBlogs-container {
@@ -34,6 +35,7 @@
 @media screen and (max-width: 950px) {
   .search__container {
     min-width: 70%;
+    margin-bottom: 30px;
   }
 } 
 
@@ -67,4 +69,12 @@
 
 .blogs-text-container {
   max-width: 1295px;
+}
+
+@media screen and (max-width: 750px){
+  .blogs-container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
 }

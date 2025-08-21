@@ -27,7 +27,7 @@ function BlogPage({ language }) {
     fetchBlog();
   }, [id]);
 
-  if (!blog) return <div>This blog does not exist.</div>;
+  if (!blog) return <div>Loading...</div>;
 
   const title = language === 'geo' ? blog.title_geo : blog.title_eng;
   const description = language === 'geo' ? blog.description_geo : blog.description_eng;
